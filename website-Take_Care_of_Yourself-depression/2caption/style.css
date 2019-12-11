@@ -1,0 +1,46 @@
+body {
+  background-color:#04688c;
+  text-align: center;
+  color:#fff;
+  padding-top:10em;
+}
+
+* { color:#fff; text-decoration: none;}
+#sky {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -2;
+}
+
+#button a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  position: absolute;
+  right: 50px;
+  bottom: 100px;
+}
+
+#button a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+h1{
+  z-index: 1;
+  color:black;
+}
+a{
+  color:black;
+}
+.next {
+  background-color: grey;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
